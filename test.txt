@@ -1,0 +1,21 @@
+This respository is intialising  it first in the local and then pushing it to the git
+
+Steps Followed:
+
+Create a repository without README.md
+
+In Local,
+
+Create a folder and start gitbash here
+In git bash initialise README.md using { echo "# message" >> README.md }
+
+then git init
+git add . 
+git status
+git commit -m "message"
+
+since we do not know the url
+git remote add origin <url>
+
+Then push it to the repo
+git push -u origin
